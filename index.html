@@ -21,10 +21,33 @@
     <body>
         <header class="text-center py-5">
             <h1>Bootstrap 5 Responsive Grid</h1>
-            <p>Layout a griglia con diversi breakpoint (sm, md, lg).</p>
+            <p class="text-secondary">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
         </header>
         <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 bg-body-tertiary">
+                        <h3>Colonna 1</h3>
+                        <p>Larghezza intera su dispositivi piccoli</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-8 text-white bg-secondary">
+                        Colonna 2
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 bg-primary text-white">Colonna1</div>
+                    <div class="col-sm-6 col-md-4 bg-success text-white">Colonna2</div>
+                    <div class="col-sm-12 col-md-4 bg-danger text-white">Colonna3</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 bg-info text-white">Colonna1</div>
+                    <div class="col-sm-6 col-md-3 bg-warning text-white">Colonna2</div>
+                    <div class="col-sm-6 col-md-3 bg-dark text-white">Colonna3</div>
+                    <div class="col-sm-6 col-md-3 bg-body-tertiary">Colonna4</div>
+                </div>
+            </div>
         </main>
         <footer>
             <!-- place footer here -->
